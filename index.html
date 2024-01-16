@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Format Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+
+
+  <header>
+    <table>
+      <tr><td><h1>Image Format Converter</h1></td><td><img src="logo.png" alt="Your Logo" id="logo"></td></tr>
+    </table>
+  </header>
+
+  <nav>
+    <a href="#">About</a>
+    <a href="#">Terms & Policies</a>
+    <a href="#">العربية</a>
+  </nav>
+
+  <section>
+    <label for="imageInput" class="custom-input">
+    <span class="input-text">Drop Here</span>
+    <input type="file" id="imageInput" accept="image/*">
+  </label>
+
+    <br>
+
+    <select id="formatSelect">
+    <option value="raw">RAW</option>
+    <option value="png">PNG</option>
+    <option value="jpg">JPG</option>
+    <option value="pdf">PDF</option>
+  </select>
+    <!-- Convert and Download, sent to script.js -->
+    <button onclick="convertAndDownload()">Convert and Download</button>
+
+    <p id="result"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Image Format Converter - Visualusor</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #A9A9A9;
+  padding: 15px;
+  text-align: center;
+}
+
+h1{
+    color: #DF3636;
+    font-size: 70px;
+    margin: 1px;
+}
+
+table{
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #8B0000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #DF3636;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #A9A9A9;
+  padding: 2px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+label{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.custom-input {
+      position: relative;
+      width: auto;
+      height: 300px;
+      border: 2px dashed #DF3636;
+      border-radius: 5px;
+      overflow: hidden;
+}
+
+.input-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 45px;
+      transform: translate(-50%, -50%);
+      color: #DF3636;
+      font-family: 'Arial', sans-serif;
+}
+
+.custom-input:hover {
+      border-color: #950909;
+}
+
+input[type="file"]{
+  width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+select{
+  background: transparent;
+  border: 4px solid #DF3636;
+  color: #DF3636;
+  padding: 18px 40px;
+  cursor: pointer;
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+}
+
+button{
+    background-color: #DF3636;
+    color: #fff;
+    border: none;
+    padding: 22px 75px;
+    cursor: pointer;
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+button:hover{
+    background-color: #950909;
+}
+a:hover{
+    background-color: #950909;
+}
+select:hover{
+    background: transparent;
+    border: 4px solid #950909;
+}
